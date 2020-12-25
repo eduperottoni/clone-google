@@ -13,29 +13,29 @@ body, html{
 /* CABEÇALHO DA PÁGINA */
 
 header #menu{
-    width:30px;
-    height:30px;
-    padding: 2px;
+    width: 30px;
+    height: 30px;
 
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: space-between;
-
-    margin: auto 0;
 }
 
 header #menu .line{
-    display: flex;
-    flex-direction:row;
-    justify-content:space-between;
-    align-items: center;
+    width: 100%;
+    height: 30%;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
-header #menu .squad{
-    width: 33%;
+header #menu .line .squad{
+    width: 30%;
     height: 100%;
 
-    background-color:#5c5c5c;
+    background-color: #4c4c4c;
 }
 
 header #profile-photo img{
