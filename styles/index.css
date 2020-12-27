@@ -1,0 +1,12 @@
+/* ÁREA DE BUSCA DA PÁGINA */
+main{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+main img{
+    width:50px;
+}
+
