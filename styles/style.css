@@ -35,7 +35,7 @@ header .imagens, header .gmail{
 }
 
 header .imagens:hover, header .gmail:hover{
-    color:#b4b4b4;
+    color:#666666;
     text-decoration:underline;
 }
 
