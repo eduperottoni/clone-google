@@ -1,79 +1,14 @@
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-body, html{
-    width:100%;
-    height:100%;
+:root{
+    --black: rgba(32,33,36,0.9)
 }
 
-/* CABEÇALHO DA PÁGINA */
-
-header{
-    height: auto;
+html, body{
     width: 100%;
-    padding:12px 12px 0 0;
-
-    display: flex;
-    justify-content: flex-end;
-}
-
-header .content{
-    width:250px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-header .imagens, header .gmail{
-    font-size:13px;
-    text-decoration: none;
-    color:#000;
-}
-
-header .imagens:hover, header .gmail:hover{
-    color:#666666;
-    text-decoration:underline;
-}
-
-header #menu{
-    width:50px;
-    height:50px;
-    border-radius: 50%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header #menu:hover{
-    background-color: #e9e9e9;
-}
-
-header #menu .squad-container{
-    width: 30px;
-    height: 30px;
-    padding:8px;
-
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-items: stretch;
-    align-items:stretch;
-    gap:8%;
-}
-
-header #menu .squad{
-    width:100%;
-    height:100%;
-    background-color: #4c4c4c;
-}
-
-header #profile-photo img{
-    width: 32px;
-
-    border-radius:50%;
+    background-color: var(--black);
 }
