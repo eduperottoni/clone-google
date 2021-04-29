@@ -69,6 +69,14 @@ section.header div.header-picture img{
     border-radius: 50%;
 }
 
+main section#container{
+    width: fit-content;
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
 main section#container img#container-logo{
     display: block;
     width: 270px;
