@@ -17,13 +17,59 @@ div#modalctn{
 
 div#modalctn-modal{
     background-color: var(--black);
+    width: 800px;
+    border-radius: 10px;
+}
+
+div#modalctn-modal h5{
+    margin: 30px auto 20px 30%;
+    font: normal 15px 'Roboto'  ;
+    color:var(--gray);
+
 }
 
 div#modalctn-modal-main{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
-section#modalctn-modal-main-shorts{ 
+
+nav#modalctn-modal-main-menu{
+    width: 25%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: var(--gray);
+
+}
+
+nav#modalctn-modal-main-menu ul{
+    list-style-type: none;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav#modalctn-modal-main-menu ul li{
+    background-color: blue;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 16px 16px 0;
+}
+
+section#modalctn-modal-main-shorts{
+    width: 70%;
+    display: flex;
+    flex-direction: column; 
+}
+
+p.options-title{
+    color:var(--gray);
+}
+p.options-desc{
+    color:var(--gray-modal);
 }
 
 div#hide-shorts{
@@ -45,12 +91,7 @@ div#hide-shorts-desc{
     justify-content: center;
 }
 
-div#hide-shorts-desc p:first-child{
-    color:var(--gray);
-}
-div#hide-shorts-desc p:last-child{
-    color:var(--gray-modal);
-}
+
 
 div#hide-shorts-button{
     display: flex;
