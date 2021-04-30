@@ -2,3 +2,77 @@
     font-family: 'Roboto', 'Segou UI';
 }
 
+div#modalctn{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+div#modalctn-modal{
+    background-color: var(--black);
+}
+
+div#modalctn-modal-main{
+    display: flex;
+}
+
+section#modalctn-modal-main-shorts{ 
+}
+
+div#hide-shorts{
+    border: 1px solid var(--gray-modal); 
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+}
+
+div#hide-shorts img{
+    width:20px;
+}
+
+div#hide-shorts-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+div#hide-shorts-desc p:first-child{
+    color:var(--gray);
+}
+div#hide-shorts-desc p:last-child{
+    color:var(--gray-modal);
+}
+
+div#hide-shorts-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+div#button-bcg{
+    width: 28px;
+    height: 12px;
+    background-color: var(--gray-modal);
+    border-radius: 6px;
+}
+
+div#button-circle{
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    background-color: var(--gray);
+    position: absolute;
+    left:0;
+}
+
+
